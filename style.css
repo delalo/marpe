@@ -1,0 +1,65 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    height: 90px;
+}
+#navmenu a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 25px;
+    font-family: px;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#navmenu {
+    margin-right: 310px;
+}
+#navmenu a:hover{
+    color: rgb(255, 174, 0);
+}
+ .nav-link:hover{
+    text-decoration: underline;
+                  
+}
+.nav-link.active
+{
+    color: rgb(255, 174, 0);
+}
+.services a
+{
+    text-decoration: none;
+}
+.card-body img {
+    height: 97px;
+    width: 97px;
+}
+.about img{
+    height:95%;
+    width: 89%;
+}
+.rounded{
+    border-radius:40px;
+}
+.specialists img {
+  height: 80px;
+  width: 80px;
+}
+.carousel  {
+    overflow: hidden;
+}
+.social img  {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+.ft {
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .container a {
+        text-decoration: none;
+    }
+}
